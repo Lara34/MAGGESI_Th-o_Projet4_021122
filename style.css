@@ -7,6 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 .text-white {
     color: #FFFFFF;
     font-size: 24px;
@@ -472,7 +473,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: #000000;
     background: rgba(0, 0, 0, .3);
 }
 
@@ -795,7 +796,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #CB5A2A;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -905,6 +906,11 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    li {
+        margin-top: 10px;
+    }
+
     .page-container {
         overflow-x: hidden;
         position: relative;
