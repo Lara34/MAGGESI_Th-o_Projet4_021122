@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+label {
+    margin: 10px;
+}
+
 .accueil {
     margin-bottom: 10px;
 }
